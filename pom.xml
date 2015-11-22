@@ -29,6 +29,12 @@
 			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>4.2.0.Final</version>
+            <scope>test</scope>
+        </dependency>
 	</dependencies>
 	<build>
 		<defaultGoal>clean install</defaultGoal>
